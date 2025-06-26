@@ -19,3 +19,117 @@ document.addEventListener("click", (event) => {
 //AOS & GSAP
 
 AOS.init();
+
+gsap.from(".navbar-title", {
+    opacity: 0,
+    y: -10,
+    delay: 1,
+    duration: 0.5,
+})
+
+gsap.from(".navbar-menu", {
+    opacity: 0,
+    y: -10,
+    delay: 1,
+    duration: 0.5,
+    stagger: 0.3,
+})
+
+gsap.from("#menu-icon", {
+    opacity: 0,
+    y: -10,
+    delay: 1,
+    duration: 0.5,
+    stagger: 0.3,
+})
+
+gsap.from(".home-title", {
+    opacity: 0,
+    y: 20,
+    delay: 2,
+    duration: 0.5,
+})
+
+gsap.from(".home-img", {
+    opacity: 0,
+    y: 20,
+    delay: 1.8,
+    duration: 0.5,
+})
+
+gsap.from(".facilities-title", {
+    opacity: 0,
+    y: 20,
+    delay: 2,
+    duration: 0.5,
+})
+
+gsap.from(".facilities-box", {
+    opacity: 0,
+    y: 20,
+    delay: 1.5,
+    duration: 0.5,
+})
+
+gsap.from(".about-title", {
+    opacity: 0,
+    y: 20,
+    delay: 2,
+    duration: 0.5,
+})
+
+gsap.from(".testimonial-title", {
+    opacity: 0,
+    y: 20,
+    delay: 2,
+    duration: 0.5,
+})
+
+gsap.from(".testimonial-container", {
+    opacity: 0,
+    y: 20,
+    delay: 1.2,
+    duration: 0.5,
+})
+
+gsap.from(".about-content", {
+    opacity: 0,
+    y: 20,
+    delay: 1.2,
+    duration: 0.5,
+})
+
+gsap.from(".contact-title", {
+    opacity: 0,
+    y: 20,
+    delay: 2,
+    duration: 0.5,
+})
+
+gsap.from(".contact-map", {
+    opacity: 0,
+    y: 20,
+    delay: 1.2,
+    duration: 0.5,
+})
+
+gsap.from(".contact-content", {
+    opacity: 0,
+    y: 20,
+    delay: 1.2,
+    duration: 0.5,
+})
+
+gsap.from(".product-title", {
+    opacity: 0,
+    y: 20,
+    delay: 2,
+    duration: 0.5,
+})
+
+gsap.from(".product", {
+    opacity: 0,
+    y: 20,
+    delay: 1.5,
+    duration: 0.5,
+})

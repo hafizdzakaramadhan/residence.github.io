@@ -19,6 +19,9 @@
     <!--Animate On Scroll CSS CDN-->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
+    <!--Feather Icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
 
 </head>
 <body>
@@ -26,7 +29,7 @@
     <header>
         <div class="navbar">
             <div class="navbar-title">
-                <h2>Residence</h2>
+                <a href="index.html">Residence</a>
             </div>
             <div class="navbar-menu open">
                 <a href="index.html" >Home</a>
@@ -38,6 +41,46 @@
         </div>
     </header>
 
+    <section class="contact">
+        <div class="contact-title">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact-map">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60965110475!2d107.56075414260437!3d-6.903271950023031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1750911666974!5m2!1sen!2sid"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-content">
+            <div class="contact-number">
+                <p> <i data-feather="phone"></i>  +62 89348878678</p>
+                <p><i data-feather="map-pin"></i>  Jl.abccubjvkkekj</p>
+                <p><i data-feather="mail"></i>  Residence@gmail.com</p>
+            </div>
+            <div class="contact-form">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="Message" id=""></textarea>
+                <button>Submit</button>
+            </div>
+        </div>
+    </section>
+
+     <!--Footer Section-->
+
+    <footer>
+        <div class="media-social">
+            <div class="media-social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-text">
+            Copyright &copy; Residence 2025
+        </div>
+    </footer>
+
+
 
 
 
@@ -48,6 +91,11 @@
 
     <!--GSAP CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!--Feather Icon-->
+    <script>
+      feather.replace();
+    </script>
 
     <script src="script.js"></script>
 </body>
